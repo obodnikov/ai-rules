@@ -21,7 +21,7 @@ The goal: keep output consistent, production-ready, and aligned with our coding 
 - Organize code into `src/`, `tests/`, `scripts/` when possible.
 - Configurations must be stored in `.env` or `config.yaml`, **never hard-coded**.
 - Keep test files only in tests/ directory
-- Keep ALL documentation files, except README.md, in separated docs/ directory
+- Keep **ALL** documentation files, except README.md, in separated docs/ directory
 
 ---
 

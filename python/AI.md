@@ -3,7 +3,6 @@
 This file defines how AI assistants should generate or modify code in this repository.  
 The goal: keep output consistent, production-ready, and aligned with our coding standards.
 
----
 
 ## General Rules
 - Always use **PEP8 style** (formatting, naming, imports).
@@ -37,15 +36,14 @@ The goal: keep output consistent, production-ready, and aligned with our coding 
 - Use custom exceptions (`class ProjectError(Exception):`) instead of raw `Exception`.
 - Log errors using `logging`, not `print`.
 
----
 
 ## Examples
-âœ… Good:
+✅ Good:
 def load_data(path: str) -> pd.DataFrame:
     """Load CSV file into a DataFrame."""
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
     return pd.read_csv(path)
-âŒ Bad:
+❌ Bad:
 def loaddata(p):
     return pd.read_csv(p)  # no error handling, unclear naming

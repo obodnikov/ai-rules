@@ -1,7 +1,3 @@
-# n8n AI.md
-
-<span style="color: rgb(34, 34, 34); font-family: -apple-system, 'system-ui', 'Segoe UI', Oxygen, Ubuntu, Roboto, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 3.425em; font-weight: 400;">🧠 AI.md — Guidelines for AI Assistance in n8n Project</span>
-
 ## ⚙️ Project Context
 
 This project is part of the **n8n automation ecosystem** — a workflow automation platform based on **Node.js, TypeScript, and Docker**, using **PostgreSQL or MongoDB** as backend databases.  

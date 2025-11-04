@@ -3,6 +3,7 @@
 This file defines how AI assistants should generate or modify code in this repository.  
 The goal: keep output consistent, production-ready, and aligned with our coding standards.
 
+---
 
 ## General Rules
 - Always use **PEP8 style** (formatting, naming, imports).
@@ -27,7 +28,7 @@ The goal: keep output consistent, production-ready, and aligned with our coding 
 ## Dependencies
 - Use `requirements.txt` or `pyproject.toml` for dependencies.
 - Prefer standard library when possible before adding new libraries.
-- If adding a library, explain why itâ€™s needed.
+- If adding a library, explain why it’s needed.
 
 ---
 
@@ -36,6 +37,7 @@ The goal: keep output consistent, production-ready, and aligned with our coding 
 - Use custom exceptions (`class ProjectError(Exception):`) instead of raw `Exception`.
 - Log errors using `logging`, not `print`.
 
+---
 
 ## Examples
 ✅ Good:

@@ -1,5 +1,3 @@
----
-
 # AI Guidelines for TypeScript Project
 
 This file defines how AI assistants should generate or modify code in this repository.

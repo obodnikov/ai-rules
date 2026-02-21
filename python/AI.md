@@ -127,3 +127,34 @@ def load_data(path: str) -> pd.DataFrame:
 def loaddata(p):
     return pd.read_csv(p)  # no error handling, unclear naming
 ```
+
+---
+
+## Python Environment
+
+**All Python operations MUST use the local `venv/` in the workspace root.**
+
+### Before Any Python Command
+1. Check that `venv/` directory exists in workspace root
+2. If `venv/` does NOT exist — STOP and ask the user to create it:
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   pip install -r requirements-dev.txt
+   ```
+3. Do NOT create the venv yourself — only the user decides the Python version
+
+### Execution Rules
+- Use `./venv/bin/python` — never bare `python` or `python3`
+- Use `./venv/bin/pip` — never bare `pip` or system pip
+- Never use `sudo pip install` or `pip install --user`
+- All package installs must be local: `./venv/bin/pip install <package>`
+- For running scripts: `./venv/bin/python scripts/trading_preparation.py`
+- For running tests: `./venv/bin/python -m pytest`
+
+### Missing Packages
+- If a required package is not installed in venv, install it locally:
+  `./venv/bin/pip install <package>`
+- After installing, suggest the user add it to `requirements.txt` or `requirements-dev.txt`
+- Never install packages globally or outside the venv

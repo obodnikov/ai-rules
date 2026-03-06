@@ -36,7 +36,7 @@ YOUR TASK:
 2. Identify which sections need updates based on the changes above
 3. Update ONLY the affected sections
 4. Preserve the 9-section structure
-5. Keep total length under 300 lines (may need to compress other sections)
+5. Keep total length under 700 lines (may need to compress other sections)
 6. Update "Last Updated" date at the top
 7. If stability zones changed, update Section 7
 8. If new AI rules added, update Section 8
